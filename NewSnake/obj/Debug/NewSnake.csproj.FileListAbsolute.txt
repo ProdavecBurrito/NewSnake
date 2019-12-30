@@ -1,0 +1,6 @@
+C:\Users\shipo\source\repos\NewSnake\NewSnake\bin\Debug\NewSnake.exe.config
+C:\Users\shipo\source\repos\NewSnake\NewSnake\bin\Debug\NewSnake.exe
+C:\Users\shipo\source\repos\NewSnake\NewSnake\bin\Debug\NewSnake.pdb
+C:\Users\shipo\source\repos\NewSnake\NewSnake\obj\Debug\NewSnake.csprojAssemblyReference.cache
+C:\Users\shipo\source\repos\NewSnake\NewSnake\obj\Debug\NewSnake.exe
+C:\Users\shipo\source\repos\NewSnake\NewSnake\obj\Debug\NewSnake.pdb
