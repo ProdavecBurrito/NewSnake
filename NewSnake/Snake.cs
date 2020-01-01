@@ -42,19 +42,19 @@ namespace NewSnake
 
         public void HandleKey(ConsoleKey key)
         {
-            if (key == ConsoleKey.LeftArrow || key == ConsoleKey.A)
+            if (key == ConsoleKey.LeftArrow)
             {
                 direction = Direction.LEFT;
             }
-            else if (key == ConsoleKey.RightArrow || key== ConsoleKey.D)
+            else if (key == ConsoleKey.RightArrow)
             {
                 direction = Direction.RIGHT;
             }
-            else if (key == ConsoleKey.UpArrow || key == ConsoleKey.W)
+            else if (key == ConsoleKey.UpArrow)
             {
                 direction = Direction.UP;
             }
-            else if (key == ConsoleKey.DownArrow || key == ConsoleKey.S)
+            else if (key == ConsoleKey.DownArrow)
             {
                 direction = Direction.DOWN;
             }
@@ -73,6 +73,19 @@ namespace NewSnake
             {
                 return false;
             }
+        }
+
+        internal bool IsHitTail()
+        {
+            var head = pList.Last();
+            for (int i = 0; i < pList.Count - 2;i++)
+            {
+                if (head.IsHit(pList[i]))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
